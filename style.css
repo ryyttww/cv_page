@@ -1,0 +1,68 @@
+body{
+    background-color: rgb(255, 227, 237);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.header{
+    text-align: center;
+}
+.avatar{
+    width: 300px;
+    height: 300px;
+}
+.header__title {
+    font-size: 29px;
+}
+.header__subtitle {
+    color: rgb(113, 61, 81);
+}
+main{
+    border: 1px solid dimgray;
+    text-align: center;
+}
+.skills ol{
+list-style: none;
+}
+.separator{
+    width: 50%;
+    height: 3px;
+    background-color: rgb(224, 198, 163);
+}
+.video {
+    width: 1200;
+    height: 900;
+    border: none;
+}
+.ed__table{
+   border-collapse: collapse ;
+   width: 100%;
+}
+.ed__table th,
+.ed__table td{
+    border: 1px solid rgb(0, 0, 0);
+}
+.quote{
+    font-size: 32px;
+}
+.form {
+    width: 600px;
+    margin: 0 auto ;
+}
+.form-control{
+width: 100%;
+}
+.control--text{
+    width: 70%;
+}
+.form-submit{
+    display: block;
+    margin: 0 auto ;
+}
+footer{
+    height: 100px;
+    text-align: center;
+    background-color: rgb(252, 252, 252);
+}
+.contcts__link{
+text-decoration: none;
+color: black;
+}
